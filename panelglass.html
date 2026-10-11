@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Panelglass: On-Device Manga Translator for Android | SM NexStudio</title>
+<meta name="description" content="Panelglass translates manga, manhwa and manhua inside the speech balloons as you scroll, fully on your Android phone with Gemma 4 or Google Translate. Free, open source, no tracking.">
+<meta name="author" content="SM NexStudio">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SM NexStudio">
+<meta property="og:title" content="Panelglass: On-Device Manga Translator for Android | SM NexStudio">
+<meta property="og:description" content="Panelglass translates manga, manhwa and manhua inside the speech balloons as you scroll, fully on your Android phone with Gemma 4 or Google Translate. Free, open source, no tracking.">
+<meta property="og:image" content="/assets/panelglass-reader-en.webp">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Panelglass: On-Device Manga Translator for Android | SM NexStudio">
+<meta name="twitter:description" content="Panelglass translates manga, manhwa and manhua inside the speech balloons as you scroll, fully on your Android phone with Gemma 4 or Google Translate. Free, open source, no tracking.">
+<meta name="twitter:image" content="/assets/panelglass-reader-en.webp">
+
+<meta name="theme-color" content="#F5F6F8">
+<link rel="icon" href="assets/smnexstudio-favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Hanken+Grotesk:ital,wght@0,400..700;1,400&family=JetBrains+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="style.css">
+
+<!-- Structured Data (Schema.org) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Apps",
+          "item": "/#apps"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Panelglass",
+          "item": "/panelglass.html"
+        }
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "/panelglass.html#app",
+      "name": "Panelglass",
+      "url": "/panelglass.html",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "SM NexStudio",
+        "url": "/"
+      },
+      "operatingSystem": "Android 12+",
+      "applicationCategory": "BooksApplication",
+      "description": "On-device manga, manhwa, and manhua speech balloon translator powered by local AI and ML Kit.",
+      "downloadUrl": "https://github.com/smnexstudio/Panelglass/releases/latest",
+      "license": "https://www.apache.org/licenses/LICENSE-2.0",
+      "screenshot": "/assets/panelglass-reader-en.webp"
+    }
+  ]
+}
+</script>
+</head>
+<body class="page-app is-pg">
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav" data-nav>
+  <div class="wrap nav__in">
+    <a class="brand" href="index.html"><img src="assets/smnexstudio.svg" alt="" width="32" height="32"><span>SM NexStudio</span></a>
+    <button class="nav__toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="menu" data-nav-toggle><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <nav class="nav__menu" id="menu" data-nav-menu aria-label="Main">
+      <a href="toolxstack.html">ToolXStack</a>
+      <a href="panelglass.html" aria-current="page">Panelglass</a>
+      <a href="memora.html">Memora</a>
+      <a href="index.html#privacy">Privacy</a>
+      <a class="btn btn--sm btn--ink" href="https://github.com/smnexstudio" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.58.23 2.75.11 3.04.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.38-5.26 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg><span>GitHub</span></a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="ahero">
+    <div class="wrap ahero__in">
+      <div class="ahero__copy">
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span aria-hidden="true">/</span><a href="index.html#apps">Apps</a><span aria-hidden="true">/</span><span>Panelglass</span></nav>
+        <div class="product__id"><img src="assets/panelglass-icon.webp" alt="Panelglass app icon" width="64" height="64"><div><p class="eyebrow">Panelglass</p><p>Manga translator &middot; Android 12+ &middot; early development</p></div></div>
+        <h1>Read manga in your language, right inside the balloons.</h1>
+        <p class="lede">Panelglass erases the original lettering and redraws every balloon, caption and sound effect in your language as you scroll. It runs fully on your phone with Gemma&nbsp;4 or Google Translate, or with Gemini if you add your own key.</p>
+        <dl class="stats"><div><dt>Target languages</dt><dd>15</dd></div><div><dt>Lettering fonts</dt><dd>21</dd></div><div><dt>Servers of our own</dt><dd>0</dd></div></dl>
+        <div class="product__cta">
+          <a class="btn btn--pg" href="https://github.com/smnexstudio/Panelglass/releases/latest" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11"/><path d="m7 10 5 5 5-5"/><path d="M5 20h14"/></svg> Download APK</a>
+          <a class="btn btn--ghost" href="https://github.com/smnexstudio/Panelglass" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.58.23 2.75.11 3.04.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.38-5.26 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg> Source on GitHub</a>
+          <a class="btn btn--ghost" href="panelglass-privacy-policy.html"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><path d="m9 12 2 2 4-4"/></svg> Privacy policy</a>
+        </div>
+      </div>
+      <div class="hero__art" aria-hidden="true">
+        <figure class="phone phone--back"><img src="assets/panelglass-reader-ja.webp" alt="" width="560" height="1245"></figure>
+        <figure class="phone phone--front"><img src="assets/panelglass-reader-en.webp" alt="" width="560" height="1245"></figure>
+        <div class="hero__chip hero__chip--a"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><path d="m9 12 2 2 4-4"/></svg> Translated on the phone</div>
+        <div class="hero__chip hero__chip--b"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5 9-10"/></svg> Japanese &rarr; English</div>
+      </div>
+    </div>
+  </section>
+  <section class="sec wrap" aria-labelledby="shots-h">
+    <div class="sec-head"><h2 id="shots-h">Before and after</h2><p>The same page, raw and translated in place. No floating boxes over the art.</p></div>
+    <div class="shots-wrap" data-shots><button class="shots__btn shots__btn--prev" type="button" aria-label="Previous screenshots" data-shots-prev><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 6-6 6 6 6"/></svg></button><ul class="shots" role="list" tabindex="0" aria-label="Screenshots" data-shots-list><li><figure><div class="shot"><img src="assets/panelglass-reader-ja.webp" alt="A raw Japanese manga page open in the Panelglass reader" width="560" height="1245" loading="lazy"></div><figcaption>Before: the raw Japanese page</figcaption></figure></li><li><figure><div class="shot"><img src="assets/panelglass-reader-en.webp" alt="The same page with every speech balloon redrawn in English" width="560" height="1245" loading="lazy"></div><figcaption>After: English, fully on the phone with Gemma&nbsp;4 E2B</figcaption></figure></li><li><figure><div class="shot"><img src="assets/panelglass-studio-review.webp" alt="Panelglass Studio showing a translated page and one balloon&rsquo;s original and translation" width="560" height="1245" loading="lazy"></div><figcaption>Studio: check each translation, balloon by balloon</figcaption></figure></li><li><figure><div class="shot"><img src="assets/panelglass-library.webp" alt="The list of reader sites added in Panelglass" width="560" height="1245" loading="lazy"></div><figcaption>Your sites: none ship with the app</figcaption></figure></li><li><figure><div class="shot"><img src="assets/panelglass-settings-panel-pop.webp" alt="Panelglass settings in the Panel Pop theme" width="560" height="1245" loading="lazy"></div><figcaption>Settings, in the Panel Pop theme</figcaption></figure></li></ul><button class="shots__btn shots__btn--next" type="button" aria-label="Next screenshots" data-shots-next><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></button></div>
+    <p class="shots__note">Site addresses are blurred. Artwork belongs to its creators and is shown only to demonstrate the translation.</p>
+  </section>
+  <section class="sec wrap" aria-labelledby="why-h">
+    <div class="sec-head"><h2 id="why-h">Built for comics</h2><p>Panelglass translates what is on screen, so it works on whichever reader site you already use.</p></div>
+    <ul class="feats" role="list"><li class="feat"><span class="feat__ic"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 20l1.3-3.9A9 8 0 1 1 7.7 19L3 20"/><path d="M8 10h8"/><path d="M8 14h5"/></svg></span><h3>In-place lettering</h3><p>The original text is removed and the translation is fitted into the same balloon or caption, sized to stay readable.</p></li><li class="feat"><span class="feat__ic"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="3" width="12" height="18" rx="2"/><path d="M12 7v6"/><path d="m9 10 3 3 3-3"/></svg></span><h3>Keeps up as you scroll</h3><p>Translations stay pinned to the art. Page turns, late-loading pages and rotating the phone are all picked up.</p></li><li class="feat"><span class="feat__ic"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3.6 9h16.8"/><path d="M3.6 15h16.8"/><path d="M11.5 3a17 17 0 0 0 0 18"/><path d="M12.5 3a17 17 0 0 1 0 18"/></svg></span><h3>Your sites, your list</h3><p>No sites ship with the app. Add the readers you use, pin favourites, and set languages and auto-translate per site.</p></li><li class="feat"><span class="feat__ic"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m5.7 5.7 12.6 12.6"/></svg></span><h3>Ads and pop-ups blocked</h3><p>Public block lists, a pop-under catcher and clean-up of tap-hijacking overlays, so reading isn&rsquo;t interrupted.</p></li><li class="feat"><span class="feat__ic"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20h4L18.5 9.5a2.8 2.8 0 0 0-4-4L4 16v4"/><path d="m13.5 6.5 4 4"/></svg></span><h3>Studio for your own files</h3><p>Import images, a PDF or a CBZ, translate the chapter on your phone, fix any balloon, and export for Kavita, Komga or any reader.</p></li><li class="feat"><span class="feat__ic"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7V4h16v3"/><path d="M9 20h6"/><path d="M12 4v16"/></svg></span><h3>15 languages, 21 fonts</h3><p>A comic font for every target language, or your own. Four themes, and the app itself speaks all 15 languages.</p></li></ul>
+  </section>
+  <section class="sec wrap" aria-labelledby="engines-h">
+    <div class="split">
+      <div class="split__copy">
+        <h2 id="engines-h">Pick your engine</h2>
+        <p>Choose under Settings&nbsp;&rarr;&nbsp;Translation model. Panelglass never switches behind your back.</p>
+        <ul>
+          <li><strong>Fully offline</strong> with Google Translate, Qwen or Gemma&nbsp;4: nothing is sent anywhere to translate.</li>
+          <li><strong>Gemini</strong> for the best quality and speed: crops of the text on screen go straight from your phone to Google, with your own key.</li>
+          <li><strong>Vertical Japanese</strong> is read by the optional manga-ocr model, or by ML Kit with a rotated second pass.</li>
+        </ul>
+        <p><strong>Reads from</strong> Japanese, Korean, Chinese and nine more. <strong>Translates into</strong> those plus Thai, Arabic and Hindi.</p>
+      </div>
+      <div class="table-scroll" role="region" aria-label="Translation engines" tabindex="0">
+<table class="flow-table">
+<thead><tr><th scope="col">Engine</th><th scope="col">Runs</th><th scope="col">Needs</th></tr></thead>
+<tbody>
+<tr><td>Google Translate</td><td>On your phone (ML Kit)</td><td>Nothing; about 30&nbsp;MB per language pack</td></tr>
+<tr><td>Qwen 2.5 1.5B</td><td>On your phone (LiteRT-LM)</td><td>A one-time 1.6&nbsp;GB download</td></tr>
+<tr><td>Gemma 4 E2B</td><td>On your phone (LiteRT-LM)</td><td>A one-time 2.6&nbsp;GB download and 8&nbsp;GB of RAM</td></tr>
+<tr><td>Gemini</td><td>Google&rsquo;s API</td><td>Your own API key</td></tr>
+</tbody>
+</table>
+</div>
+    </div>
+  </section>
+  <section class="sec wrap" aria-labelledby="studio-h">
+    <div class="sec-head"><h2 id="studio-h">Studio: letter your own chapters</h2><p>For files you already have. Studio uses the same detector, text recognition and engines as the reader, so it works offline too.</p></div>
+    <ol class="steps"><li><strong>Import</strong><p>Images in the order you choose, a PDF or a CBZ. A ComicInfo.xml fills in the title, number and credits.</p></li><li><strong>Translate and review</strong><p>Translate the whole chapter, then check each balloon: correct it, re-translate it, or mark a false detection.</p></li><li><strong>Restyle and export</strong><p>Change font, size, colour, outline and fill for one balloon or the page, then export images, CBZ or ZIP.</p></li></ol>
+  </section>
+  <section class="sec wrap" aria-labelledby="privacy-h">
+    <div class="pcard">
+      <div class="pcard__copy">
+        <h2 id="privacy-h">Nothing comes to us</h2>
+        <p>Panelglass has no server and no account. It is a browser, so it uses the internet, and the policy lists every request it makes.</p>
+        <a class="btn btn--ink" href="panelglass-privacy-policy.html">Read the privacy policy <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a>
+      </div>
+      <ul class="checks"><li><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg><div><strong>On-device by default</strong><span>Google Translate, Qwen and Gemma&nbsp;4 translate on your phone. Nothing is sent to translate.</span></div></li><li><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg><div><strong>Gemini only if you choose it</strong><span>Your key is encrypted with the Android Keystore and sent only to Google, with your own requests.</span></div></li><li><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg><div><strong>HTTPS only</strong><span>Plain http pages are upgraded or refused, and pages get no access to your files.</span></div></li><li><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg><div><strong>No analytics, ads or crash reports</strong><span>SM NexStudio receives nothing from the app.</span></div></li></ul>
+    </div>
+  </section>
+  <section class="sec wrap" id="install" aria-labelledby="install-h">
+    <div class="sec-head"><h2 id="install-h">Install in a minute</h2><p>Panelglass is shared on GitHub rather than an app store, so there is no store account and no store tracking.</p></div>
+    <ol class="steps"><li><strong>Download the APK</strong><p>Open the <a href="https://github.com/smnexstudio/Panelglass/releases/latest" target="_blank" rel="noopener noreferrer">latest release</a> on your phone and download the <code>.apk</code> file.</p></li><li><strong>Allow the install</strong><p>Tap the file. If Android asks, allow your browser or file manager to install apps, just this once.</p></li><li><strong>Pick a language and engine</strong><p>Choose your languages, add a reader site, and press Start. Download Gemma&nbsp;4 or Qwen later if you want an offline language model.</p></li></ol>
+  </section>
+  <section class="sec wrap" aria-labelledby="faq-h">
+    <div class="sec-head"><h2 id="faq-h">Questions</h2></div>
+    <div class="faq"><details><summary>Is Panelglass free?</summary><div><p>Yes. It&rsquo;s free and open source under Apache-2.0, with no ads or in-app purchases.</p></div></details><details><summary>Does it work offline?</summary><div><p>Yes, with Google Translate, Qwen or Gemma&nbsp;4 once their language packs or models are downloaded. Reading sites still needs a connection, as in any browser; Studio chapters don&rsquo;t.</p></div></details><details><summary>Do I need a Gemini API key?</summary><div><p>No. Gemini is optional. The default engine, Google Translate, runs on your phone with nothing to set up.</p></div></details><details><summary>Which sites does it work with?</summary><div><p>The reader sites you add yourself. Panelglass translates what is on screen rather than downloading images, so it sees the same page you do.</p></div></details><details><summary>Which phones can run Gemma&nbsp;4?</summary><div><p>Gemma&nbsp;4 E2B needs about 8&nbsp;GB of RAM and a one-time 2.6&nbsp;GB download. Qwen 2.5 1.5B is lighter and falls back to the CPU on phones with less than 6&nbsp;GB.</p></div></details><details><summary>Is it finished?</summary><div><p>Panelglass is in early development, so expect rough edges. Reports on <a href="https://github.com/smnexstudio/Panelglass/issues" target="_blank" rel="noopener noreferrer">GitHub</a> help a lot.</p></div></details></div>
+  </section>
+  <section class="band band--app wrap" aria-labelledby="band-h">
+    <div class="band__in">
+      <h2 id="band-h">Raw chapters, read in your language.</h2>
+      <p>Free and open source under Apache-2.0. Every release is a signed APK with a SHA-256 checksum next to it.</p>
+      <div class="band__cta">
+        <a class="btn btn--ink" href="https://github.com/smnexstudio/Panelglass/releases/latest" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11"/><path d="m7 10 5 5 5-5"/><path d="M5 20h14"/></svg> Download Panelglass</a>
+        <a class="btn btn--ghost" href="https://github.com/smnexstudio/Panelglass/releases" target="_blank" rel="noopener noreferrer">All releases</a>
+      </div>
+    </div>
+  </section>
+<section class="sec wrap" aria-labelledby="more-h"><div class="sec-head"><h2 id="more-h">More from SM NexStudio</h2></div><div class="more"><a href="toolxstack.html"><img src="assets/toolxstack-icon.webp" alt="" width="52" height="52"><div><strong>ToolXStack</strong><span>216 offline tools for developers and everyday sums</span></div></a><a href="memora.html"><img src="assets/memora-icon.webp" alt="" width="52" height="52"><div><strong>Memora</strong><span>Birthday reminders with a wish ready to send</span></div></a></div></section>
+</main>
+<footer class="foot">
+  <div class="wrap foot__in">
+    <div class="foot__brand">
+      <a class="brand" href="index.html"><img src="assets/smnexstudio.svg" alt="" width="32" height="32"><span>SM NexStudio</span></a>
+      <p>Small, open-source Android apps that keep your data on your phone.</p>
+    </div>
+    <div class="foot__col">
+      <h2>Apps</h2>
+      <a href="toolxstack.html">ToolXStack</a>
+      <a href="panelglass.html">Panelglass</a>
+      <a href="memora.html">Memora</a>
+    </div>
+    <div class="foot__col">
+      <h2>Privacy</h2>
+      <a href="toolxstack-privacy-policy.html">ToolXStack policy</a>
+      <a href="panelglass-privacy-policy.html">Panelglass policy</a>
+      <a href="memora-privacy-policy.html">Memora policy</a>
+    </div>
+    <div class="foot__col">
+      <h2>Contact</h2>
+      <a href="https://github.com/smnexstudio/ToolXStack/issues" target="_blank" rel="noopener noreferrer">ToolXStack issues</a>
+      <a href="https://github.com/smnexstudio/Panelglass/issues" target="_blank" rel="noopener noreferrer">Panelglass issues</a>
+      <a href="https://github.com/smnexstudio/Memora/issues" target="_blank" rel="noopener noreferrer">Memora issues</a>
+    </div>
+  </div>
+  <div class="wrap foot__base"><span>&copy; <span data-year>2026</span> SM NexStudio</span><span>Made for Android. No cookies on this site.</span></div>
+</footer>
+<script src="assets/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>SM NexStudio | Privacy-First, Open-Source Android Apps</title>
+<meta name="description" content="SM NexStudio builds ToolXStack, Panelglass and Memora: open-source Android apps that keep your data on your device. 216 offline tools, manga translation and birthday reminders with zero tracking.">
+<meta name="author" content="SM NexStudio">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SM NexStudio">
+<meta property="og:title" content="SM NexStudio | Privacy-First, Open-Source Android Apps">
+<meta property="og:description" content="Open-source Android apps built to stay out of your business. ToolXStack offline toolbox, Panelglass on-device manga translator and Memora birthday reminders. Zero ads, zero tracking.">
+<meta property="og:image" content="/assets/toolxstack-home.webp">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SM NexStudio | Privacy-First, Open-Source Android Apps">
+<meta name="twitter:description" content="Open-source Android apps built to stay out of your business. ToolXStack offline toolbox, Panelglass on-device manga translator and Memora birthday reminders. Zero ads, zero tracking.">
+<meta name="twitter:image" content="/assets/toolxstack-home.webp">
+
+<meta name="theme-color" content="#F5F6F8">
+<link rel="icon" href="assets/smnexstudio-favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Hanken+Grotesk:ital,wght@0,400..700;1,400&family=JetBrains+Mono:wght@500&family=Caveat:wght@600&display=swap">
+<link rel="stylesheet" href="style.css">
+
+<!-- Structured Data (Schema.org) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "/#organization",
+      "name": "SM NexStudio",
+      "url": "/",
+      "logo": "/assets/smnexstudio.svg",
+      "sameAs": [
+        "https://github.com/smnexstudio"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "/#website",
+      "url": "/",
+      "name": "SM NexStudio",
+      "publisher": {
+        "@id": "/#organization"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "ToolXStack",
+      "operatingSystem": "Android 13+",
+      "applicationCategory": "UtilitiesApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "description": "Offline toolbox with 216 developer, calculation, and daily utility tools. Built with zero network permissions so data never leaves your device.",
+      "url": "/toolxstack.html",
+      "downloadUrl": "https://github.com/smnexstudio/ToolXStack/releases/latest"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Panelglass",
+      "operatingSystem": "Android 12+",
+      "applicationCategory": "BooksApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "description": "On-device manga, manhwa, and manhua speech balloon translator powered by local AI and ML Kit.",
+      "url": "/panelglass.html",
+      "downloadUrl": "https://github.com/smnexstudio/Panelglass/releases/latest"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Memora",
+      "operatingSystem": "Android 13+",
+      "applicationCategory": "LifestyleApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "description": "Birthday, anniversary and festival reminders with ready-made wishes and postcards for WhatsApp, SMS or email. Works offline and keeps your data on your phone.",
+      "url": "/memora.html",
+      "downloadUrl": "https://github.com/smnexstudio/Memora/releases/latest"
+    }
+  ]
+}
+</script>
+</head>
+<body class="page-home">
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav" data-nav>
+  <div class="wrap nav__in">
+    <a class="brand" href="index.html"><img src="assets/smnexstudio.svg" alt="" width="32" height="32"><span>SM NexStudio</span></a>
+    <button class="nav__toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="menu" data-nav-toggle><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <nav class="nav__menu" id="menu" data-nav-menu aria-label="Main">
+      <a href="toolxstack.html">ToolXStack</a>
+      <a href="panelglass.html">Panelglass</a>
+      <a href="memora.html">Memora</a>
+      <a href="index.html#privacy">Privacy</a>
+      <a class="btn btn--sm btn--ink" href="https://github.com/smnexstudio" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.58.23 2.75.11 3.04.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.38-5.26 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg><span>GitHub</span></a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero wrap">
+    <div class="hero__copy">
+      <p class="eyebrow">Free and open source</p>
+      <h1><span>Built for Android.</span> <span>Built to stay out of your&nbsp;business.</span></h1>
+      <p class="lede">ToolXStack puts 216 offline tools in your pocket. Panelglass translates manga right inside the speech balloons. Memora remembers every birthday and has the wish ready to send. All three are free and open source, with no ads, no accounts and no tracking.</p>
+      <div class="hero__cta">
+        <a class="btn btn--ink" href="#apps">See the apps <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a>
+        <a class="btn btn--ghost" href="https://github.com/smnexstudio" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.58.23 2.75.11 3.04.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.38-5.26 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg> Source on GitHub</a>
+      </div>
+    </div>
+    <div class="hero__art hero__art--trio" aria-hidden="true">
+      <figure class="phone phone--back"><img src="assets/panelglass-settings-panel-pop.webp" alt="Panelglass manga translation settings on Android" width="560" height="1245"></figure>
+      <figure class="phone phone--front"><img src="assets/toolxstack-home.webp" alt="ToolXStack offline developer toolbox on Android" width="560" height="1245"></figure>
+      <figure class="phone phone--mid"><img src="assets/memora-home.webp" alt="Memora birthday reminder home screen on Android" width="560" height="1245"></figure>
+      <div class="hero__chip hero__chip--a"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><path d="m9 12 2 2 4-4"/></svg> 0 trackers</div>
+      <div class="hero__chip hero__chip--b"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg> Works offline</div>
+    </div>
+  </section>
+
+  <section class="apps wrap" id="apps" aria-labelledby="apps-h">
+    <div class="sec-head">
+      <h2 id="apps-h">Three apps, built the same way</h2>
+      <p>Each one does a single job well, runs on your phone first, and publishes every line of its source.</p>
+    </div>
+
+    <article class="product product--txs" id="toolxstack">
+      <div class="product__copy">
+        <div class="product__id"><img src="assets/toolxstack-icon.webp" alt="ToolXStack app icon" width="64" height="64"><div><h3><a href="toolxstack.html">ToolXStack</a></h3><p>Offline toolbox &middot; Android 13+</p></div></div>
+        <p class="product__lede">216 tools for developers and everyday sums in one fast app. JSON and JWT, hashes, unit and loan calculators, colour tools and more. It has no internet permission at all, so what you paste never leaves your phone.</p>
+        <dl class="stats">
+          <div><dt>Tools</dt><dd>216</dd></div>
+          <div><dt>Categories</dt><dd>10</dd></div>
+          <div><dt>Network permissions</dt><dd>0</dd></div>
+        </dl>
+        <div class="product__cta">
+          <a class="btn btn--txs" href="https://github.com/smnexstudio/ToolXStack/releases/latest" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11"/><path d="m7 10 5 5 5-5"/><path d="M5 20h14"/></svg> Download APK</a>
+          <a class="btn btn--ghost" href="toolxstack-privacy-policy.html"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><path d="m9 12 2 2 4-4"/></svg> Privacy policy</a>
+        </div>
+        <a class="product__more" href="toolxstack.html">More about ToolXStack <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a>
+      </div>
+      <div class="product__art">
+        <ul class="cats" aria-label="ToolXStack categories and tool counts"><li><span class="cat__n">57</span><span class="cat__name">Developer</span><span class="cat__d">JSON, XML, YAML, JWT, hashes, regex</span></li><li><span class="cat__n">28</span><span class="cat__name">Calculation</span><span class="cat__d">Scientific, stats, fractions</span></li><li><span class="cat__n">21</span><span class="cat__name">Geometry</span><span class="cat__d">2D and 3D shapes, volume</span></li><li><span class="cat__n">32</span><span class="cat__name">Unit Converter</span><span class="cat__d">Length, mass, temperature, data</span></li><li><span class="cat__n">22</span><span class="cat__name">Finance</span><span class="cat__d">EMI, SIP, CAGR, GST, FD</span></li><li><span class="cat__n">8</span><span class="cat__name">Health</span><span class="cat__d">BMI, BMR, hydration, pace</span></li><li><span class="cat__n">23</span><span class="cat__name">Text Utilities</span><span class="cat__d">Counters, case, line tools</span></li><li><span class="cat__n">10</span><span class="cat__name">Color Tools</span><span class="cat__d">HEX, RGB, HSL, contrast</span></li><li><span class="cat__n">10</span><span class="cat__name">Randomizer</span><span class="cat__d">Dice, coin, picker</span></li><li><span class="cat__n">5</span><span class="cat__name">Date & Time</span><span class="cat__d">Age, duration, time zones</span></li></ul>
+      </div>
+    </article>
+
+    <article class="product product--pg" id="panelglass">
+      <div class="product__copy">
+        <div class="product__id"><img src="assets/panelglass-icon.webp" alt="Panelglass app icon" width="64" height="64"><div><h3><a href="panelglass.html">Panelglass</a></h3><p>Manga translator &middot; Android 12+ &middot; early development</p></div></div>
+        <p class="product__lede">Read manga, manhwa and manhua in your language. Panelglass erases the original lettering and redraws each balloon in place as you scroll, fully on your phone with Gemma&nbsp;4 or Google Translate, or with Gemini if you add your own key.</p>
+        <dl class="stats">
+          <div><dt>Target languages</dt><dd>15</dd></div>
+          <div><dt>Lettering fonts</dt><dd>21</dd></div>
+          <div><dt>Servers of our own</dt><dd>0</dd></div>
+        </dl>
+        <div class="product__cta">
+          <a class="btn btn--pg" href="https://github.com/smnexstudio/Panelglass/releases/latest" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11"/><path d="m7 10 5 5 5-5"/><path d="M5 20h14"/></svg> Download APK</a>
+          <a class="btn btn--ghost" href="panelglass-privacy-policy.html"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><path d="m9 12 2 2 4-4"/></svg> Privacy policy</a>
+        </div>
+        <a class="product__more" href="panelglass.html">More about Panelglass <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a>
+      </div>
+      <div class="product__art product__art--pg">
+        <figure class="phone phone--flat"><img src="assets/panelglass-settings-default.webp" alt="Panelglass settings: source language Japanese, target English, translation model and themes" width="560" height="1245" loading="lazy"></figure>
+        <div class="balloon" data-balloon='[["どうする？", "ja", "Japanese, as printed"], ["What now?", "en", "English"], ["अब क्या?", "hi", "Hindi"], ["¿Y ahora?", "es", "Spanish"]]' aria-live="off">
+          <span class="balloon__text" data-balloon-text lang="ja">どうする？</span>
+          <span class="balloon__tag" data-balloon-tag>Japanese, as printed</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="product product--mem" id="memora">
+      <div class="product__copy">
+        <div class="product__id"><img src="assets/memora-icon.webp" alt="Memora app icon" width="64" height="64"><div><h3><a href="memora.html">Memora</a></h3><p>Birthday reminders &middot; Android 13+</p></div></div>
+        <p class="product__lede">Never miss a birthday, anniversary or festival. Memora reminds you early and again on the day, then has a wish ready to send on WhatsApp, SMS or email, as a message or a postcard. It works offline and keeps everyone you add on your phone.</p>
+        <dl class="stats">
+          <div><dt>Postcard designs</dt><dd>5</dd></div>
+          <div><dt>Festival calendars</dt><dd>22</dd></div>
+          <div><dt>Accounts needed</dt><dd>0</dd></div>
+        </dl>
+        <div class="product__cta">
+          <a class="btn btn--mem" href="https://github.com/smnexstudio/Memora/releases/latest" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11"/><path d="m7 10 5 5 5-5"/><path d="M5 20h14"/></svg> Download APK</a>
+          <a class="btn btn--ghost" href="memora-privacy-policy.html"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><path d="m9 12 2 2 4-4"/></svg> Privacy policy</a>
+        </div>
+        <a class="product__more" href="memora.html">More about Memora <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a>
+      </div>
+      <div class="product__art product__art--mem">
+        <figure class="phone phone--flat"><img src="assets/memora-calendar.webp" alt="Memora month calendar with birthdays, anniversaries and festivals marked" width="560" height="1245" loading="lazy"></figure>
+        <div class="postcard" data-postcard='[["Today", "Happy 27th birthday, Ananya! Filter coffee is on me.", "27", "Birthday"], ["In 3 days", "Ten years, Raghav &amp; Meera. Here&rsquo;s to ten more!", "10", "Anniversary"], ["In 11 days", "Happy Dussehra to everyone at home!", "20", "Festival"], ["Lunar date", "Happy birthday, Ajji! Same tithi, every year.", "81", "Tithi birthday"]]' aria-hidden="true">
+          <span class="postcard__when" data-postcard-when>Today</span>
+          <span class="postcard__msg" data-postcard-msg>Happy 27th birthday, Ananya! Filter coffee is on me.</span>
+          <span class="postcard__side"><span class="stamp" data-postcard-stamp>27</span><span class="postcard__tag" data-postcard-tag>Birthday</span></span>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <section class="compare wrap" id="privacy" aria-labelledby="privacy-h">
+    <div class="sec-head">
+      <h2 id="privacy-h">Privacy, side by side</h2>
+      <p>The short version of all three policies. ToolXStack never touches the network. Panelglass is a browser, so it does, and it tells you exactly when. Memora goes online only for festival dates and update checks.</p>
+    </div>
+    <div class="table-scroll" role="region" aria-label="Privacy comparison" tabindex="0">
+      <table class="cmp">
+        <thead><tr><th scope="col"><span class="sr">Question</span></th>
+          <th scope="col"><span class="cmp__app"><img src="assets/toolxstack-icon.webp" alt="" width="28" height="28">ToolXStack</span></th>
+          <th scope="col"><span class="cmp__app"><img src="assets/panelglass-icon.webp" alt="" width="28" height="28">Panelglass</span></th>
+          <th scope="col"><span class="cmp__app"><img src="assets/memora-icon.webp" alt="" width="28" height="28">Memora</span></th></tr></thead>
+        <tbody><tr><th scope="row">Internet permission</th><td>Removed from the app</td><td>Yes, it&rsquo;s a browser</td><td>Yes, for festival dates and updates</td></tr><tr><th scope="row">Data sent to SM NexStudio</th><td>Nothing</td><td>Nothing</td><td>Nothing</td></tr><tr><th scope="row">Analytics or crash reports</th><td>None</td><td>None</td><td>None</td></tr><tr><th scope="row">Ads</th><td>None</td><td>None, and it blocks them on sites</td><td>None</td></tr><tr><th scope="row">Account or sign-in</th><td>None</td><td>None</td><td>None</td></tr><tr><th scope="row">What leaves your phone</th><td>Nothing, ever</td><td>Pages you open; model, language-pack and block-list downloads; and, if you pick it, crops of on-screen text sent to Gemini</td><td>Requests for public festival dates and update checks. Never your people, dates or notes</td></tr><tr><th scope="row">Licence</th><td>Apache-2.0</td><td>Apache-2.0</td><td>GPL-3.0</td></tr>
+          <tr class="cmp__links"><th scope="row">Full policy</th><td><a href="toolxstack-privacy-policy.html">Read <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a></td><td><a href="panelglass-privacy-policy.html">Read <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a></td><td><a href="memora-privacy-policy.html">Read <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="band wrap" aria-labelledby="band-h">
+    <div class="band__in">
+      <h2 id="band-h">Free, open source, and yours to check.</h2>
+      <p>All three apps are open source on GitHub: ToolXStack and Panelglass under Apache-2.0, Memora under GPL-3.0. Every release ships a signed APK with a SHA-256 checksum next to it.</p>
+      <div class="band__cta">
+        <a class="btn btn--ink" href="https://github.com/smnexstudio/ToolXStack/releases/latest" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11"/><path d="m7 10 5 5 5-5"/><path d="M5 20h14"/></svg> ToolXStack</a>
+        <a class="btn btn--ink" href="https://github.com/smnexstudio/Panelglass/releases/latest" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11"/><path d="m7 10 5 5 5-5"/><path d="M5 20h14"/></svg> Panelglass</a>
+        <a class="btn btn--ink" href="https://github.com/smnexstudio/Memora/releases/latest" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11"/><path d="m7 10 5 5 5-5"/><path d="M5 20h14"/></svg> Memora</a>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="foot">
+  <div class="wrap foot__in">
+    <div class="foot__brand">
+      <a class="brand" href="index.html"><img src="assets/smnexstudio.svg" alt="" width="32" height="32"><span>SM NexStudio</span></a>
+      <p>Small, open-source Android apps that keep your data on your phone.</p>
+    </div>
+    <div class="foot__col">
+      <h2>Apps</h2>
+      <a href="toolxstack.html">ToolXStack</a>
+      <a href="panelglass.html">Panelglass</a>
+      <a href="memora.html">Memora</a>
+    </div>
+    <div class="foot__col">
+      <h2>Privacy</h2>
+      <a href="toolxstack-privacy-policy.html">ToolXStack policy</a>
+      <a href="panelglass-privacy-policy.html">Panelglass policy</a>
+      <a href="memora-privacy-policy.html">Memora policy</a>
+    </div>
+    <div class="foot__col">
+      <h2>Contact</h2>
+      <a href="https://github.com/smnexstudio/ToolXStack/issues" target="_blank" rel="noopener noreferrer">ToolXStack issues</a>
+      <a href="https://github.com/smnexstudio/Panelglass/issues" target="_blank" rel="noopener noreferrer">Panelglass issues</a>
+      <a href="https://github.com/smnexstudio/Memora/issues" target="_blank" rel="noopener noreferrer">Memora issues</a>
+    </div>
+  </div>
+  <div class="wrap foot__base"><span>&copy; <span data-year>2026</span> SM NexStudio</span><span>Made for Android. No cookies on this site.</span></div>
+</footer>
+<script src="assets/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ToolXStack: 216 Offline Developer Tools for Android | SM NexStudio</title>
+<meta name="description" content="ToolXStack puts 216 offline tools on Android: JSON, JWT, hashes, regex, unit converters and finance calculators. No internet permission, no ads, no tracking. Free and open source.">
+<meta name="author" content="SM NexStudio">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SM NexStudio">
+<meta property="og:title" content="ToolXStack: 216 Offline Developer Tools for Android | SM NexStudio">
+<meta property="og:description" content="ToolXStack puts 216 offline tools on Android: JSON, JWT, hashes, regex, unit converters and finance calculators. No internet permission, no ads, no tracking. Free and open source.">
+<meta property="og:image" content="/assets/toolxstack-home.webp">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ToolXStack: 216 Offline Developer Tools for Android | SM NexStudio">
+<meta name="twitter:description" content="ToolXStack puts 216 offline tools on Android: JSON, JWT, hashes, regex, unit converters and finance calculators. No internet permission, no ads, no tracking. Free and open source.">
+<meta name="twitter:image" content="/assets/toolxstack-home.webp">
+
+<meta name="theme-color" content="#F5F6F8">
+<link rel="icon" href="assets/smnexstudio-favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Hanken+Grotesk:ital,wght@0,400..700;1,400&family=JetBrains+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="style.css">
+
+<!-- Structured Data (Schema.org) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Apps",
+          "item": "/#apps"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "ToolXStack",
+          "item": "/toolxstack.html"
+        }
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "/toolxstack.html#app",
+      "name": "ToolXStack",
+      "url": "/toolxstack.html",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "SM NexStudio",
+        "url": "/"
+      },
+      "operatingSystem": "Android 13+",
+      "applicationCategory": "UtilitiesApplication",
+      "description": "Offline toolbox with 216 developer, calculation, and daily utility tools. Built with zero network permissions so data never leaves your device.",
+      "downloadUrl": "https://github.com/smnexstudio/ToolXStack/releases/latest",
+      "license": "https://www.apache.org/licenses/LICENSE-2.0",
+      "screenshot": "/assets/toolxstack-home.webp"
+    }
+  ]
+}
+</script>
+</head>
+<body class="page-app is-txs">
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav" data-nav>
+  <div class="wrap nav__in">
+    <a class="brand" href="index.html"><img src="assets/smnexstudio.svg" alt="" width="32" height="32"><span>SM NexStudio</span></a>
+    <button class="nav__toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="menu" data-nav-toggle><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <nav class="nav__menu" id="menu" data-nav-menu aria-label="Main">
+      <a href="toolxstack.html" aria-current="page">ToolXStack</a>
+      <a href="panelglass.html">Panelglass</a>
+      <a href="memora.html">Memora</a>
+      <a href="index.html#privacy">Privacy</a>
+      <a class="btn btn--sm btn--ink" href="https://github.com/smnexstudio" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.58.23 2.75.11 3.04.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.38-5.26 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg><span>GitHub</span></a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="ahero">
+    <div class="wrap ahero__in">
+      <div class="ahero__copy">
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span aria-hidden="true">/</span><a href="index.html#apps">Apps</a><span aria-hidden="true">/</span><span>ToolXStack</span></nav>
+        <div class="product__id"><img src="assets/toolxstack-icon.webp" alt="ToolXStack app icon" width="64" height="64"><div><p class="eyebrow">ToolXStack</p><p>Offline toolbox &middot; Android 13+ &middot; Apache-2.0</p></div></div>
+        <h1>216 tools. Zero network permissions.</h1>
+        <p class="lede">JSON and JWT, hashes and regex, unit and loan calculators, colour tools and more, in one fast app. ToolXStack has no internet permission at all, so what you paste never leaves your phone.</p>
+        <dl class="stats"><div><dt>Tools</dt><dd>216</dd></div><div><dt>Categories</dt><dd>10</dd></div><div><dt>Network permissions</dt><dd>0</dd></div></dl>
+        <div class="product__cta">
+          <a class="btn btn--txs" href="https://github.com/smnexstudio/ToolXStack/releases/latest" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11"/><path d="m7 10 5 5 5-5"/><path d="M5 20h14"/></svg> Download APK</a>
+          <a class="btn btn--ghost" href="https://github.com/smnexstudio/ToolXStack" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.58.23 2.75.11 3.04.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.38-5.26 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg> Source on GitHub</a>
+          <a class="btn btn--ghost" href="toolxstack-privacy-policy.html"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><path d="m9 12 2 2 4-4"/></svg> Privacy policy</a>
+        </div>
+      </div>
+      <div class="hero__art hero__art--solo" aria-hidden="true">
+        <figure class="phone phone--front"><img src="assets/toolxstack-home.webp" alt="" width="560" height="1245"></figure>
+        <div class="hero__chip hero__chip--a"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><path d="m9 12 2 2 4-4"/></svg> No internet permission</div>
+        <div class="hero__chip hero__chip--b"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5 9-10"/></svg> 37 offline guides</div>
+      </div>
+    </div>
+  </section>
+  <section class="sec wrap" aria-labelledby="why-h">
+    <div class="sec-head"><h2 id="why-h">Why ToolXStack</h2><p>One app instead of a drawer of ad-heavy single-purpose apps and web converters that see everything you paste.</p></div>
+    <ul class="feats" role="list"><li class="feat"><span class="feat__ic"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><path d="m9 12 2 2 4-4"/></svg></span><h3>Nothing can leave</h3><p>The release build strips Android&rsquo;s <code>INTERNET</code> permission, so the system itself refuses any network request. A test in the build checks it stays that way.</p></li><li class="feat"><span class="feat__ic"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 10h4a2 2 0 0 1 0 4h-4l-4 7h-3l2-7H7l-2 2H2l2-4-2-4h3l2 2h4L9 3h3z"/></svg></span><h3>Works anywhere</h3><p>On a flight, underground or in a locked-down data centre. Every tool runs on your phone with no connection.</p></li><li class="feat"><span class="feat__ic"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="6" height="6" rx="1"/><rect x="14" y="4" width="6" height="6" rx="1"/><rect x="4" y="14" width="6" height="6" rx="1"/><rect x="14" y="14" width="6" height="6" rx="1"/></svg></span><h3>Everything in one place</h3><p>57 developer tools, 32 unit converters, 22 finance calculators and more, behind one search that understands <code>emi</code>, <code>b64</code> and <code>dob</code>.</p></li><li class="feat"><span class="feat__ic"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 19a9 9 0 0 1 9 0 9 9 0 0 1 9 0"/><path d="M3 6a9 9 0 0 1 9 0 9 9 0 0 1 9 0"/><path d="M3 6v13"/><path d="M12 6v13"/><path d="M21 6v13"/></svg></span><h3>Learn as you go</h3><p>Each tool has a short article with the formula and a worked example, plus 37 offline guides on HTTP, regex, cron, Git, hashing and more.</p></li><li class="feat"><span class="feat__ic"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="13" y="8" width="8" height="12" rx="1"/><path d="M18 8V5a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h9"/><path d="M16 9h2"/></svg></span><h3>Fits every screen</h3><p>Phones, foldables, tablets and Chromebooks. Wide screens get two panes, and a keyboard works: Enter runs a tool, Escape closes a sheet.</p></li><li class="feat"><span class="feat__ic"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.5 12.6 12 20l-7.5-7.4A5 5 0 1 1 12 6a5 5 0 1 1 7.5 6.6"/></svg></span><h3>Free, with no catch</h3><p>No ads, no in-app purchases, no pro tier and no account. Apache-2.0 on GitHub.</p></li></ul>
+  </section>
+  <section class="sec wrap" aria-labelledby="inside-h">
+    <div class="split">
+      <div class="split__copy">
+        <h2 id="inside-h">216 tools in 10 categories</h2>
+        <p>The tools developers reach for every day, next to the calculators everyone else needs.</p>
+        <ul>
+          <li><strong>JSON, XML and YAML</strong>: format, minify, validate, convert, and query with JSONPath.</li>
+          <li><strong>JWT</strong>: decode, inspect claims and check expiry, without pasting a token into a website.</li>
+          <li><strong>Hashes and HMAC</strong>: MD5, SHA-1, SHA-256, SHA-384 and SHA-512, checked against published test vectors.</li>
+          <li><strong>Text</strong>: diff, regex tester, find and replace, SQL formatter, case converters and counters.</li>
+          <li><strong>Finance</strong>: EMI with a full amortisation table, SIP, CAGR, GST, FD and RD.</li>
+          <li><strong>Colour</strong>: HEX, RGB and HSL, harmonies, and a WCAG contrast checker.</li>
+        </ul>
+      </div>
+      <ul class="cats" aria-label="ToolXStack categories and tool counts"><li><span class="cat__n">57</span><span class="cat__name">Developer</span><span class="cat__d">JSON, XML, YAML, JWT, hashes, regex</span></li><li><span class="cat__n">28</span><span class="cat__name">Calculation</span><span class="cat__d">Scientific, stats, fractions</span></li><li><span class="cat__n">21</span><span class="cat__name">Geometry</span><span class="cat__d">2D and 3D shapes, volume</span></li><li><span class="cat__n">32</span><span class="cat__name">Unit Converter</span><span class="cat__d">Length, mass, temperature, data</span></li><li><span class="cat__n">22</span><span class="cat__name">Finance</span><span class="cat__d">EMI, SIP, CAGR, GST, FD</span></li><li><span class="cat__n">8</span><span class="cat__name">Health</span><span class="cat__d">BMI, BMR, hydration, pace</span></li><li><span class="cat__n">23</span><span class="cat__name">Text Utilities</span><span class="cat__d">Counters, case, line tools</span></li><li><span class="cat__n">10</span><span class="cat__name">Color Tools</span><span class="cat__d">HEX, RGB, HSL, contrast</span></li><li><span class="cat__n">10</span><span class="cat__name">Randomizer</span><span class="cat__d">Dice, coin, picker</span></li><li><span class="cat__n">5</span><span class="cat__name">Date &amp; Time</span><span class="cat__d">Age, duration, time zones</span></li></ul>
+    </div>
+  </section>
+  <section class="sec wrap" aria-labelledby="privacy-h">
+    <div class="pcard">
+      <div class="pcard__copy">
+        <h2 id="privacy-h">Your data stays on your device</h2>
+        <p>ToolXStack collects nothing, because it can&rsquo;t send anything. The privacy policy is short for a reason.</p>
+        <a class="btn btn--ink" href="toolxstack-privacy-policy.html">Read the privacy policy <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a>
+      </div>
+      <ul class="checks"><li><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg><div><strong>Blocked by Android, not by promise</strong><span>No <code>INTERNET</code> or network-state permission. The only permission is vibrate, for haptics.</span></div></li><li><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg><div><strong>No analytics or crash reports</strong><span>No tracking SDKs and no behaviour logging.</span></div></li><li><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg><div><strong>Your inputs are never saved</strong><span>Favourites and recents keep only tool IDs and times, never what you typed.</span></div></li><li><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg><div><strong>Clipboard only when you tap</strong><span>ToolXStack reads or writes the clipboard only when you press a button.</span></div></li></ul>
+    </div>
+  </section>
+  <section class="sec wrap" id="install" aria-labelledby="install-h">
+    <div class="sec-head"><h2 id="install-h">Install in a minute</h2><p>ToolXStack is shared on GitHub rather than an app store, so there is no store account and no store tracking.</p></div>
+    <ol class="steps"><li><strong>Download the APK</strong><p>Open the <a href="https://github.com/smnexstudio/ToolXStack/releases/latest" target="_blank" rel="noopener noreferrer">latest release</a> on your phone and download the <code>.apk</code> file.</p></li><li><strong>Allow the install</strong><p>Tap the file. If Android asks, allow your browser or file manager to install apps, just this once.</p></li><li><strong>Check it, if you like</strong><p>Each release has a SHA-256 checksum. Run <code>sha256sum -c ToolXStack-vX.Y.Z.apk.sha256</code> to confirm your download is the published file.</p></li></ol>
+  </section>
+  <section class="sec wrap" aria-labelledby="faq-h">
+    <div class="sec-head"><h2 id="faq-h">Questions</h2></div>
+    <div class="faq"><details><summary>Does it really work without internet?</summary><div><p>Yes. Every tool runs on your phone, and the app has no permission to use the network at all.</p></div></details><details><summary>Is anything I paste stored?</summary><div><p>No. Favourites and recents store only which tool you used and when, never your inputs or results.</p></div></details><details><summary>Why is it on GitHub and not the Play Store?</summary><div><p>Releases on GitHub come with a SHA-256 checksum for every build, so you can check exactly what you install, and there is no store in between collecting data.</p></div></details><details><summary>Which Android versions are supported?</summary><div><p>Android 13 (API 33) and newer, on phones, foldables, tablets and Chromebooks that run Android apps.</p></div></details><details><summary>Is it really free?</summary><div><p>Yes. ToolXStack is free and open source under Apache-2.0, with no ads, subscriptions or in-app purchases.</p></div></details><details><summary>How do I report a bug or ask for a tool?</summary><div><p>Open an issue on <a href="https://github.com/smnexstudio/ToolXStack/issues" target="_blank" rel="noopener noreferrer">GitHub</a>. Pull requests are welcome too.</p></div></details></div>
+  </section>
+  <section class="band band--app wrap" aria-labelledby="band-h">
+    <div class="band__in">
+      <h2 id="band-h">Your whole toolbox, with nothing phoning home.</h2>
+      <p>Free and open source under Apache-2.0. Every release is a signed APK with a SHA-256 checksum next to it.</p>
+      <div class="band__cta">
+        <a class="btn btn--ink" href="https://github.com/smnexstudio/ToolXStack/releases/latest" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11"/><path d="m7 10 5 5 5-5"/><path d="M5 20h14"/></svg> Download ToolXStack</a>
+        <a class="btn btn--ghost" href="https://github.com/smnexstudio/ToolXStack/releases" target="_blank" rel="noopener noreferrer">All releases</a>
+      </div>
+    </div>
+  </section>
+<section class="sec wrap" aria-labelledby="more-h"><div class="sec-head"><h2 id="more-h">More from SM NexStudio</h2></div><div class="more"><a href="panelglass.html"><img src="assets/panelglass-icon.webp" alt="" width="52" height="52"><div><strong>Panelglass</strong><span>Manga translated right inside the speech balloons</span></div></a><a href="memora.html"><img src="assets/memora-icon.webp" alt="" width="52" height="52"><div><strong>Memora</strong><span>Birthday reminders with a wish ready to send</span></div></a></div></section>
+</main>
+<footer class="foot">
+  <div class="wrap foot__in">
+    <div class="foot__brand">
+      <a class="brand" href="index.html"><img src="assets/smnexstudio.svg" alt="" width="32" height="32"><span>SM NexStudio</span></a>
+      <p>Small, open-source Android apps that keep your data on your phone.</p>
+    </div>
+    <div class="foot__col">
+      <h2>Apps</h2>
+      <a href="toolxstack.html">ToolXStack</a>
+      <a href="panelglass.html">Panelglass</a>
+      <a href="memora.html">Memora</a>
+    </div>
+    <div class="foot__col">
+      <h2>Privacy</h2>
+      <a href="toolxstack-privacy-policy.html">ToolXStack policy</a>
+      <a href="panelglass-privacy-policy.html">Panelglass policy</a>
+      <a href="memora-privacy-policy.html">Memora policy</a>
+    </div>
+    <div class="foot__col">
+      <h2>Contact</h2>
+      <a href="https://github.com/smnexstudio/ToolXStack/issues" target="_blank" rel="noopener noreferrer">ToolXStack issues</a>
+      <a href="https://github.com/smnexstudio/Panelglass/issues" target="_blank" rel="noopener noreferrer">Panelglass issues</a>
+      <a href="https://github.com/smnexstudio/Memora/issues" target="_blank" rel="noopener noreferrer">Memora issues</a>
+    </div>
+  </div>
+  <div class="wrap foot__base"><span>&copy; <span data-year>2026</span> SM NexStudio</span><span>Made for Android. No cookies on this site.</span></div>
+</footer>
+<script src="assets/main.js"></script>
+</body>
+</html>
