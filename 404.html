@@ -30,24 +30,25 @@
   .lost__in { display: grid; gap: 22px; justify-items: start; max-width: 760px; }
   .lost__code {
     font: 800 clamp(5.5rem, 3rem + 14vw, 12rem)/.85 var(--f-display); letter-spacing: -.06em;
-    background: linear-gradient(120deg, var(--txs) 0%, var(--brand) 55%, var(--pg) 100%);
-    -webkit-background-clip: text; background-clip: text; color: transparent;
+    color: var(--brand-text);
   }
   .lost h1 { font-size: var(--t-h2); }
   .lost__lede { font-size: var(--t-lede); color: var(--ink-2); max-width: 34em; }
-  .lost__path { font: 500 .9375rem/1.4 var(--f-mono); color: var(--ink-3); background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: .35em .7em; overflow-wrap: anywhere; }
+  .lost__path { font: 500 .9375rem/1.4 var(--f-mono); color: var(--ink-2); background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 10px 16px; overflow-wrap: anywhere; }
   .lost__path:empty { display: none; }
   .lost__actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 6px; }
   .lost__apps { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 196px), 1fr)); gap: 14px; margin-top: clamp(36px, 6vw, 56px); width: 100%; }
   .lost__app {
     display: flex; align-items: center; gap: 14px; padding: 16px; border-radius: var(--r-md);
     background: var(--surface); border: 1px solid var(--line); text-decoration: none;
-    transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+    transition: transform .18s ease, border-color .18s ease;
   }
-  .lost__app:hover { transform: translateY(-2px); box-shadow: var(--shadow); border-color: transparent; }
+  .lost__app:hover { transform: translateY(-1px); border-color: var(--ink); }
   .lost__app img { width: 48px; height: 48px; border-radius: 12px; flex: none; }
   .lost__app strong { display: block; font: 700 1.0625rem/1.2 var(--f-display); }
-  .lost__app span { display: block; color: var(--ink-3); font-size: .875rem; line-height: 1.4; }
+  .lost__app span { display: block; color: var(--ink-2); font-size: .9375rem; line-height: 1.4; }
+  /* Small label text needs 4.5:1; the brand orange stays on the dot only */
+  .lost .eyebrow { color: var(--ink-2); }
   @media (prefers-reduced-motion: reduce) { .lost__app, .lost__app:hover { transition: none; transform: none; } }
 </style>
 </head>
@@ -58,7 +59,6 @@
     <a class="brand" href="/"><img src="/assets/smnexstudio.svg" alt="" width="32" height="32"><span>SM NexStudio</span></a>
     <button class="nav__toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="menu" data-nav-toggle><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
     <nav class="nav__menu" id="menu" data-nav-menu aria-label="Main">
-      <a href="/toolxstack.html">ToolXStack</a>
       <a href="/panelglass.html">Panelglass</a>
       <a href="/memora.html">Memora</a>
       <a href="/#privacy">Privacy</a>
@@ -80,7 +80,6 @@
     </div>
 
     <nav class="lost__apps" aria-label="Apps">
-      <a class="lost__app" href="/toolxstack.html"><img src="/assets/toolxstack-icon.webp" alt="" width="48" height="48"><div><strong>ToolXStack</strong><span>200+ offline tools</span></div></a>
       <a class="lost__app" href="/panelglass.html"><img src="/assets/panelglass-icon.webp" alt="" width="48" height="48"><div><strong>Panelglass</strong><span>On-device manga translator</span></div></a>
       <a class="lost__app" href="/memora.html"><img src="/assets/memora-icon.webp" alt="" width="48" height="48"><div><strong>Memora</strong><span>Birthday &amp; anniversary reminders</span></div></a>
     </nav>
@@ -95,19 +94,16 @@
     </div>
     <div class="foot__col">
       <h2>Apps</h2>
-      <a href="/toolxstack.html">ToolXStack</a>
       <a href="/panelglass.html">Panelglass</a>
       <a href="/memora.html">Memora</a>
     </div>
     <div class="foot__col">
       <h2>Privacy</h2>
-      <a href="/toolxstack-privacy-policy.html">ToolXStack policy</a>
       <a href="/panelglass-privacy-policy.html">Panelglass policy</a>
       <a href="/memora-privacy-policy.html">Memora policy</a>
     </div>
     <div class="foot__col">
       <h2>Contact</h2>
-      <a href="https://github.com/smnexstudio/ToolXStack/issues" target="_blank" rel="noopener noreferrer">ToolXStack issues</a>
       <a href="https://github.com/smnexstudio/Panelglass/issues" target="_blank" rel="noopener noreferrer">Panelglass issues</a>
       <a href="https://github.com/smnexstudio/Memora/issues" target="_blank" rel="noopener noreferrer">Memora issues</a>
     </div>
